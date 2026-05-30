@@ -18,7 +18,7 @@
 
 #include "lib/sim_common_structs.h"
 #include "cbp2016_tage_sc_l.h"
-#include "my_cond_branch_predictor.h"
+#include "routed_predictor.h"
 #include <cassert>
 
 //

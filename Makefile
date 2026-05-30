@@ -28,8 +28,8 @@ LIBS = -lcbp -lz
 FLAGS = -std=c++17 -L./lib $(LIBS) $(OPT)
 CPPFLAGS = -std=c++17 $(OPT)
 
-OBJ = cond_branch_predictor_interface.o my_cond_branch_predictor.o
-DEPS = cbp.h cond_branch_predictor_interface.h my_cond_branch_predictor.h
+OBJ = cond_branch_predictor_interface.o routed_predictor.o
+DEPS = cbp.h cond_branch_predictor_interface.h routed_predictor.h
 
 DEBUG=0
 ifeq ($(DEBUG), 1)
