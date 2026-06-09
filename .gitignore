@@ -1,0 +1,6 @@
+*.o
+*.a
+
+# compiled simulator binary and local run outputs
+/cbp
+/sample_results/
